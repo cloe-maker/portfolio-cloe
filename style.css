@@ -1,0 +1,199 @@
+/*RESET ET BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #e8e8f0;
+}
+/* HEADER */
+header {
+    background-color:#111118 ;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #1e1e2e;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c8f060;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+nav ul a {
+    color: #6b6b8a;
+    text-decoration: none;
+}
+nav ul a:hover {
+    color: #c8f060;
+}
+/*SECTION ACCEUIL*/
+#accueil {
+    padding: 6rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #1e1e2e;
+}
+#accueil h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+#acceuil h1 {
+    color: #c8f060;
+}
+#accueil p {
+    color:#6b6b8a;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+#accueil a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+#accueil a:first-of-type {
+    background-color: #c8f060;
+    color: #0a0a0f;
+}
+#accueil a:last-of-type {
+    border: 1px solid #1e1e2e;
+    color: #e8e8f0;
+}
+/* SECTION COMPÉTENCES */
+#competences {
+  padding: 4rem 2rem;
+  background-color: #111118;
+  border-bottom: 1px solid #1e1e2e;
+}
+
+#competences h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #c8f060;
+}
+
+#competences ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#competences li {
+  background-color: #13131c;
+  border: 1px solid #1e1e2e;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
+  color: #e8e8f0;
+}
+
+/* SECTION PROJETS */
+#projets {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid #1e1e2e;
+}
+
+#projets h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #c8f060;
+}
+
+.projet {
+  background-color: #13131c;
+  border: 1px solid #1e1e2e;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.projet h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.projet p {
+  color: #6b6b8a;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.projet a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #c8f060;
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #c8f060;
+}
+/* SECTION CONTACT */
+#contact {
+  padding: 4rem 2rem;
+  background-color: #111118;
+  border-bottom: 1px solid #1e1e2e;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #c8f060;
+}
+
+#contact p {
+  color: #6b6b8a;
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+#contact a {
+  color: #c8f060;
+  text-decoration: none;
+  font-size: 1rem;
+  border-bottom: 1px solid #c8f060;
+}
+
+#contact ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+#contact ul a {
+  color: #6b6b8a;
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: none;
+}
+
+#contact ul a:hover {
+  color: #c8f060;
+}
+
+/* FOOTER */
+footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  color: #6b6b8a;
+  font-size: 0.75rem;
+  border-top: 1px solid #1e1e2e;
+}
